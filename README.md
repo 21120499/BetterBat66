@@ -1,4 +1,4 @@
-# BetterBattery
+# BetterBattery - starting..
 
 This is a script which runs, and configures programs to give you that sweet, needed battery life on Linux. This script run only in 66suite init system.
 **Made with Intel laptop CPUs in mind**
