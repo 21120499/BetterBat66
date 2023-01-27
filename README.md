@@ -1,6 +1,6 @@
 # BetterBattery
 
-This is a script which runs, and configures programs to give you that sweet, needed battery life on Linux. This script run in 66suite init system
+This is a script which runs, and configures programs to give you that sweet, needed battery life on Linux. This script run only in 66suite init system.
 **Made with Intel laptop CPUs in mind**
 # NOTE: 
 My default 66-tree here is base, change it to yours in jumpstart.sh 
