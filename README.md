@@ -2,7 +2,7 @@
 
 This is a script which runs, and configures programs to give you that sweet, needed battery life on Linux.
 **Made with Intel laptop CPUs in mind**
-#NOTE: 
+# NOTE: 
 My default 66-tree here is base, change it to yours in jumpstart.sh 
 # Quick Start Guide
 
