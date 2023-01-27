@@ -2,12 +2,12 @@
 
 This is a script which runs, and configures programs to give you that sweet, needed battery life on Linux.
 **Made with Intel laptop CPUs in mind**
-
+NOTE: my default 66-tree here is base, change it to yours in jumpstart.sh 
 # Quick Start Guide
 
 run
 ```
-git clone https://github.com/BigAnteater/BetterBattery && cd BetterBattery
+git clone https://github.com/lg11mkr/BetterBat66 && cd BetterBat66
 ```
 to get started.
 then type in
