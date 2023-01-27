@@ -13,6 +13,7 @@ git clone https://github.com/lg11mkr/BetterBat66 && cd BetterBat66
 to get started.
 then type in
 ```
+chmod +x jumpstart.sh
 sudo ./jumpstart.sh
 ```
 to run the installer.
