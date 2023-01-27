@@ -8,8 +8,8 @@ fi
 
 
 sudo pacman -Syu dialog
-dialog --title 'Hello,' --msgbox 'This script will (hopefully) make the battery life on your laptop better' 20 50
-dialog --title 'WARNING!' --msgbox 'MAKE SURE YOU USE ARCH LINUX AND HAVE YAY FOR THIS!' 20 50
+dialog --title 'Hello,' --msgbox 'This script will (hopefully) make the battery life on your 66 laptop better' 20 50
+dialog --title 'WARNING!' --msgbox 'MAKE SURE YOU USE OBARUN OR ARTIX-66suite AND HAVE YAY FOR THIS!' 20 50
 dialog --msgbox 'This script will automatically set up your laptop to have a much higher battery life than before.' 20 50
 clear
 dialog --msgbox 'First we are going to install some needed programs.' 20 50
@@ -18,11 +18,9 @@ dialog --msgbox  'TLP is a very popular battery life tool which makes optimizati
 sleep 1s
 pacman -Sy tlp -y
 sleep 1s
-systemctl mask systemd-rfkill.service
-systemctl mask systemd-rfkill.socket
-systemctl enable tlp.service
+66-enable -t base tlp
 sleep 1s
-systemctl start tlp.service
+66-start -t base tlp
 sleep 1s
 clear
 dialog --msgbox 'Now we are going to be automatically setting up the configs, dont worry, this will back up your current config' 20 50
@@ -38,8 +36,8 @@ dialog --msgbox 'This will compile the program so it may take a while' 20 50
 clear
 runuser -l $USER -c 'yay -Sy auto-cpufreq'
 sleep 1s
-systemctl enable auto-cpufreq
-systemctl start autocpufreq
+66-enable -t base auto-cpufreq
+66-start -t base autocpufreq
 sleep 4s
 clear
 dialog --msgbox 'Renaming old auto-cpufreq config. Dont poop your pants if you get an error, this only renames existing configs' 20 50
